@@ -8,10 +8,47 @@
 html{
     font-family: 'Finlandica', sans-serif;
     font-family: 'Fredoka', sans-serif;
+    font-size: 100%;
 }
 
 /* COMMON */
 .container{
     width: 70%;
+    margin: 0 auto;
 }
 
+.mt {
+    margin-top: 2rem;
+}
+
+/* HEADER */
+h1{
+    color: #E53171;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.header > p{
+    text-align: center;
+}
+
+/* MAIN */
+.column{
+    width: calc(100% / 3);
+    background-color: #0f0e17;
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+span{
+    display: block;
+}
+
+.row img{
+    height: 50%;
+}
