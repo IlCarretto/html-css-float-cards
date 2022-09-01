@@ -37,7 +37,10 @@ h1{
     width: calc(100% / 3);
     background-color: #0f0e17;
     float: left;
+    color: white;
+    padding: 0.8rem;
 }
+
 
 .clearfix::after{
     content: "";
@@ -49,6 +52,11 @@ span{
     display: block;
 }
 
-.row img{
-    height: 50%;
+.column img{
+    height: 100px;
+    float: left;
+}
+
+span:last-of-type{
+    color:#37afda;
 }
