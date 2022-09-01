@@ -39,6 +39,7 @@ h1{
     float: left;
     color: white;
     margin-right: 2rem;
+    box-shadow: 2px 2px 2px 2px lightgrey;
 }
 
 
@@ -53,7 +54,7 @@ span{
 }
 
 .column img{
-    height: 120px;
+    width: 30%;
     float: left;
 }
 
@@ -62,5 +63,9 @@ span:last-of-type{
 }
 
 .content{
-    padding: 1rem;
+    padding-left: 35%;
+}
+
+.content h3, span{
+    padding-top: 5%;
 }
