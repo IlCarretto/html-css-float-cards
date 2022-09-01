@@ -34,11 +34,11 @@ h1{
 
 /* MAIN */
 .column{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 2rem);
     background-color: #0f0e17;
     float: left;
     color: white;
-    padding: 0.8rem;
+    margin-right: 2rem;
 }
 
 
@@ -53,10 +53,14 @@ span{
 }
 
 .column img{
-    height: 100px;
+    height: 120px;
     float: left;
 }
 
 span:last-of-type{
     color:#37afda;
+}
+
+.content{
+    padding: 1rem;
 }
