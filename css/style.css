@@ -28,7 +28,7 @@ h1{
     text-align: center;
 }
 
-.header > p{
+.header p{
     text-align: center;
 }
 
@@ -39,9 +39,12 @@ h1{
     float: left;
     color: white;
     margin-right: 2rem;
-    box-shadow: 2px 2px 2px 2px lightgrey;
+    box-shadow: 0 0 10px black;
 }
 
+.column:nth-child(3){
+    margin-right: 0px;
+}
 
 .clearfix::after{
     content: "";
